@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
-import Buttons from './buttons';
-import Counter from './counter';
+import Buttons from './Buttons';
+import Counter from './Counter';
 
 export default function Page() {
   const [count, setCount] = useState(0);
